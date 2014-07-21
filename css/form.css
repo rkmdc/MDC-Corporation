@@ -1,0 +1,270 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Feb, 2014, 10:45:52 AM
+    Author     : mihir
+*/
+input[type="file"]{background-color:red;}
+fieldset{
+    border: none;
+}
+.quotationformdiv{
+
+    /* height: 410px; */
+    /* padding: 0px 3px 0px 3px; */
+    margin-top: 0%;
+    width: 100.5%;
+    background: transparent;
+    border: none;
+    /* border: 1px solid black; */
+}
+.quotationformdiv1{
+    position: absolute;
+    margin-left: 3%;
+    display: block;
+    /* overflow: auto; */
+    width: 48%;
+    height: 84%;
+    overflow: none;
+    border-radius: 4px;
+    border: 1px solid white;
+    -webkit-scroll: none;
+    padding: 0px 3px 0px 3px;
+    clear: both;
+    float: left;
+}
+.quotationformdiv2{
+    position: absolute;
+    margin-left: 52%;
+    /* margin-right: 20%; */
+    display: block;
+    width: 44%;
+    height: 85%;
+    overflow: none;
+    border-radius: 4px;
+    float: right;
+    -webkit-scroll: none;
+    padding: 0px 3px 0px 3px;
+    border: 1px solid black;
+    overflow: none;
+}
+.item{
+    font-family: Calibri;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 0%;
+}
+.item2{
+
+    margin-left: 0%;
+}
+p{
+    /* text-align: left; */
+    float: left;
+    clear: both;
+    padding-right: 0%;
+}
+.pagecontenttype{
+    margin-top: 1.4%;
+    margin-left: 12.3%;
+}
+
+
+input{
+    margin-top: 1%;
+    margin-left: 10%;
+    border: 1.5px inset;
+    border-style: solid;
+    border-color: #ffffff;
+    background: transparent;
+    border-radius: 11px;
+    color: #ffffff;
+    padding-bottom: 0px;
+    /* top: -2%; */
+}
+#selectcategory{
+    font-family: Raleway;
+    border: 1.5px inset;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 11px;
+    margin-top: 2%;
+    margin-left: 30.8%;
+    background: #FFFFFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 189px;
+    margin-left: 21%;
+    color: #FFFFFF;
+    background-color: rgba(32,32,32,0.3);
+}
+#photosprovided{
+    border: 1.5px inset;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 11px;
+    margin-top: 1%;
+    margin-left: 7.1%;
+    background: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select{
+    border: 1.5px inset;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 11px;
+    margin-top: 7%;
+    margin-left: 0%;
+    background: #ffffff;
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none;
+}
+select p{
+    color: #FFFFFF;
+}
+option{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+table{
+    width: 100%;
+}
+h3{
+    color: #FFFFFF;
+    font-size: 19px;
+    /* margin-left: 3.5%; */
+    margin-top: 0%;
+    height: 20px;
+    margin-bottom: 5%;
+}
+#fname{
+    margin-left: 20%;
+
+}
+#lname{
+    margin-left: 20%;
+
+}
+#contactno{
+    margin-left: 20%;
+
+}
+#email{
+    margin-left: 26%;
+
+}
+#egsites{
+    margin-left: 10%;
+
+}
+#selectweblogo{
+    margin-left: 21.2%;
+    margin-top: 0%;
+}
+#noofpages{
+    margin-left: 12.5%;
+
+
+}
+#companytype{
+    margin-left: 14%;
+
+
+}
+#companyname{
+    margin-left: 12.1%;
+
+
+}
+textarea{
+    width: 56%;
+
+    height: 75px;
+    margin-left: 24%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    background: transparent;
+}
+@media (min-width:1080px){
+    #send{
+    padding: 10px 28px;
+    /* left: 0%; */
+    /* display: block; */
+   margin-left: 7%;
+margin-top: 23%;
+    margin-bottom: 3%;
+    /* margin-right: auto; */
+    border-radius: 5px;
+    background: transparent;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+width: 111px;
+}
+#div2{
+    float: right;
+    /* border: 1px solid black; */
+    width: 49%;
+    margin-left: 0%;
+    height: 68%;
+}
+#div1{
+    float: left;
+    /* clear: both; */
+    /* border: 1px solid black; */
+    width: 49%;
+    /* margin-left: 4%; */
+    /* padding-left: 2%; */
+    height: 68%;
+}}
+/*.quotationformdiv{}
+.quotationformdiv::-webkit-scrollbar{
+width:10px;
+//background-color:#cccccc;
+} 
+.quotationformdiv::-webkit-scrollbar-thumb{
+background-color:rgba(255, 255, 255, 0.78);
+border-radius:10px;
+opacity: 0.7;
+border: none;
+}*/
+#validationmsg{
+    height: 30px;
+    width: 300px;
+    left: 41%;
+    margin-top: 0%;
+    display: block;
+    position: absolute;
+
+}
+#scroll{/* overflow-y: scroll; */}
+#scroll::-webkit-scrollbar{
+    width:10px;
+    //background-color:#cccccc;
+} 
+#scroll::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 255, 255, 0.78);
+    border-radius:10px;
+    opacity: 0.7;
+}
+#scroll{margin-top:3%;width: 90%;height: 80%;position: absolute;margin-top: 0%;/* margin-right: 0%; */margin-left: 3%;padding: 3% 3% 3% 0%;}
+.scrolldiv{/* overflow-y: scroll; */}
+.scrolldiv::-webkit-scrollbar{
+    width:10px;
+    //background-color:#cccccc;
+} 
+.scrolldiv::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 255, 255, 0.78);
+    border-radius:10px;
+    opacity: 0.7;
+}
+.scrolldiv{width: 86%;height: 80%;position: absolute;margin-top: 0%;/* margin-right: 0%; */margin-left: 2%;}

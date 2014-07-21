@@ -1,0 +1,415 @@
+/*  
+    Document   : Style.css
+    Created on : 17 Jan, 2014, 12:05:23 PM
+    Last Update: 17 Jan, 2014, 12:05:23 PM
+    Author     : CodeLord
+    Description: This Style Sheet is used for applying style for whole web page as global
+*/
+
+#image{
+    /*    margin:100px 100px;
+        padding-left:170px;*/
+}
+path{
+    stroke-width: 1.5px;
+}
+line{
+    stroke-width: 1.5px;
+}
+rect{
+    stroke-width: 1.5px;
+}
+polyline{
+    stroke-width: 1.5px;
+}
+circle{
+    stroke-width: 1.5px;
+}
+polygon{
+    stroke-width: 1.5px;
+}
+ellipse{
+    stroke-width: 1.5px;
+}
+
+body {
+    /* margin-right: 0px; */
+    /* padding-right: 0px; */
+    background-color: #575756;
+    font-family: Raleway;
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    margin:0px;
+}
+h1 {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+}
+h2 {
+    margin: 62px 0px 10px;
+    font-family: Montserrat;
+    color: #745785;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+}
+h3 {
+    margin: 10px 0px 23px;
+    font-family: Montserrat;
+    color: #745785;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+h4 {
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+h5 {
+    margin: 10px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+h6 {
+    margin: 10px 0px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+p {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    /* text-align: center; */
+    margin-top: 1px;
+}
+.selected{
+    //border: 1px solid #888;
+    background-image: url('../images/menuBackground_2.png'); height: 30px; width: 70px; 
+    /* display: block; */
+    /* width: 179px; */
+}
+
+.mdcconcepts_logo {
+    position: absolute;
+left: 1%;
+bottom: 5.5%;
+display: block;
+
+margin-top: 0px;
+margin-right: 4px;
+margin-left: 0px;
+
+height: 24%;
+}
+#footer {
+    position: absolute;
+    //background: none repeat scroll 0% 0% rgba(32, 32, 32, 0.3);
+    width: 100%;
+    height: 33px;
+    top: 95%;
+    right: 0px;
+    opacity: 0.0;
+
+
+}
+/*#footer_fincorp {
+    position: absolute;
+    //background: none repeat scroll 0% 0% rgba(32, 32, 32, 0.3);
+    width: 100%;
+    height: 33px;
+    top: 96%;
+    right: 0px;
+    
+
+
+}*/
+#footer1 {
+    position: absolute;
+    //background: none repeat scroll 0% 0% rgba(32, 32, 32, 0.3);
+    width: 100%;
+    height: 35px;
+    top: 95%;
+    right: 0px;
+    
+
+
+}
+.sec {
+    height: 76px; 
+}
+#header{position: relative;z-index: 1111;  opacity: 0.0;
+}
+#header1{position: relative;z-index: 1111;  
+}
+/*namigation bar*/
+.menu {
+    display: inline;
+    clear: right;
+}
+.footermenu_ul {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+    float: right;
+}
+.footermenu_ul_li{display: inline-block;padding-right: 17px;
+                  padding-top: 5px;
+                  }
+.footermenu_ul_li_realities{display: inline-block;padding-right: 17px;
+                  padding-top: 0px;}
+
+.menu_ul {
+    margin-top: 24px;
+    margin-right: 0px;
+    padding-right: 0px;
+    float: right;
+}
+.menu_ul_li {
+    display: inline-block;
+    padding-right: 122px;
+    font-family: Raleway;
+    color: white;
+    font-size: 16.5px;
+    // height:40px;
+
+}
+span{position: absolute;
+     left: 15px;top: 4px;/* margin-right: auto; *//* display: block; */}
+.menu_ul_li a{
+    text-decoration: none;
+    color: white;
+    /* width: 133px; */
+    margin-top: 0px;
+    height:39%;
+    position:absolute;
+}
+.initial_home_effect{ background-image: url('../images/menuBackground_2.png'); background-repeat:no-repeat; height: 30px;  width:70px;  }
+//.menu_ul_li.selected a{background-color: #000;}
+.menu_ul_li a:hover {
+
+
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 15px #FFFFFF;
+    -webkit-transition: width 0.3s; /*Safari & Chrome*/
+    transition: width 0.3s;
+    -moz-transition: width 0.3s; /* Firefox 4 */
+    -o-transition: width 0.3s; /* Opera */
+}
+.menu_ul_li:last-child a span{
+    /* position: absolute; */
+
+
+
+    /* top: 4px; */
+    /* left: 0; */
+    /* right: -6px; */
+}
+.testim {
+    position: absolute;
+    top: 39px;
+    right: 0px;
+    margin-top: 63px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media (max-width: 991px) {
+    p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .button {
+        background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+        background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+        background-image: linear-gradient(#ff8d5e, #d7624b);
+        box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+        text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
+    }
+    .Home_MDCCoorp_LastPartArrow{
+       position: absolute;
+top: 33.5%;
+left: 94.80%; opacity: 0.0;
+    }
+}
+@media (max-width: 767px) {
+    h2 {
+        margin-top: 0px;
+    }
+    .button {
+        margin-bottom: 50px;
+        background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+        background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+        background-image: linear-gradient(#ff8d5e, #d7624b);
+        box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+        text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
+    }
+    .mdcconcepts_logo{
+        left: 9%;
+        /* margin-top: 20px; */
+    }
+    #LineArtBoxSVG2{
+        position: absolute;
+        bottom: 3%;   
+    }
+    .Home_MDCCoorp_LastPartArrow{
+       position: absolute;
+top: 33.5%;
+left: 94.80%; opacity: 0.0;
+    }
+}
+@media (max-width: 479px) {
+    h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .button {
+        background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+        background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+        background-image: linear-gradient(#ff8d5e, #d7624b);
+        box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+        text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
+    }
+    
+    .Home_MDCCoorp_LastPartArrow{
+        top:33%;
+    }
+}
+
+/*
+Purpose : This class is used for round box corner div for convas
+Created By: Codelord
+*/
+.Default_BlueCanvasWrapperStyles
+{
+    background-color:rgba(0,29,74,0.3);
+    height: 67%;
+    width: 73.5%;
+    position: absolute;
+    top: 18%;
+    left: 16%;
+    border-radius: 73px;
+}
+.con{
+    position: absolute;
+    top: 5px;
+    left: 9px;
+}
+.item>p{
+    font-family: Calibri;
+}
+
+/*
+Purpose : This class is used for wrapper for all line box line art
+Created By: Codelord
+*/
+.Default_LineArtDrawingWrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 37%;
+    left: 44.5%;
+}
+#copyright{color: white;
+           font-family: Raleway;
+           color: white;
+           font-size: 11px;
+           position: absolute;
+           top: 20px;
+           left: 9px;
+}
+#copyright1{color: white;
+           font-family: Raleway;
+           color: white;
+           font-size: 11px;
+           position: absolute;
+           top: 15px;
+           left: 9px;
+}
+#social{
+    float:right;
+}
+
+.Default_TextInfoForAllPages{
+    position: absolute;
+    padding: 3px 6px 3px 6px;
+    height: 25%;
+    width: 51%;
+    left: 27%;
+    top: 70%;
+    overflow-y: scroll;
+    /* margin-bottom: 0%; */
+}
+.contactdivwrapper>p{
+    text-align: justify;
+    /* margin-left: 3%; */
+    /* padding: 3% 3% 3% 3%; */
+    font-family: Calibri;
+}
+strong{
+    text-align: justify;
+    color: #FFFFFF;
+
+}
+ul{
+    text-align: justify;
+    color: #FFFFFF;
+
+}
+/*
+Purpose : This class is used for wrapper for all line art for sub pages like fincorp,concepts, etc
+Created By: Codelord
+*/
+.Default_LineArtForSubPagesDrawingWrapper{
+    /* position: absolute; */
+    /* width: 100%; */
+    height: 100%;
+    /* right: 0px; */
+
+    /* top: 37%; */
+    /* left: 44.5%; */
+}
+.Default_GoToOriginalWebisteEnter{
+
+    height: 28px;
+    width: 100px;
+    position: absolute;
+
+
+    bottom: 10px;
+
+
+    left: 91%;
+    font-family: Raleway;
+    font-size: 17px;
+    color: white;
+
+
+    top: 88%;
+}
+
+@media (min-width: 767px) and (max-width: 1500px){
+    #LineArtBoxSVG2{
+        position: absolute;
+        bottom: 14%;   
+    }
+}

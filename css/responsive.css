@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Feb, 2014, 11:06:31 AM
+    Author     : admin1
+*/
+@media (max-width: 1080px){
+
+    .contactaddress{
+        margin-left: 0;
+        position: absolute;
+        left: 30%;
+
+    }
+    #tab1 {
+color: #FFFFFF;
+cursor: pointer;
+position: absolute;
+float: left;
+height: 25%;
+font-family: Raleway;
+margin-top: 46px;
+width: 89px;
+border: 1px solid white;
+text-align: center;
+border-radius: 5px;
+font-size: 10px;
+}
+#tab2 {
+color: #FFFFFF;
+cursor: pointer;
+float: left;
+height: 25%;
+font-family: Raleway;
+margin-top: 46px;
+margin-left: 98px;
+width: 100px;
+border: 1px solid white;
+text-align: center;
+border-radius: 5px;
+font-size: 10px;
+padding-left: 30px;
+}
+#addresstext2 {
+;
+width: 209%;
+}
+    #addresstext{
+        width:211%;
+    }
+    .contactdiv{
+
+       margin-left:20%;
+        margin-top: 403px;
+    }
+    .contactaddress2 {
+        margin-left: 0;
+position: absolute;
+left: 30%;
+    }
+    button[type=submit]{
+        padding: 10px 28px;
+        /* margin-left: 0%; */
+        left: 49.9%;
+        margin-top: 8.5%;
+        position: absolute;
+        border-radius: 5px;
+        background: transparent;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 17px;
+        color: #fff;
+        border-color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    #div1{width:100%;}
+    #div2{width:100%;}
+#email{margin-left:15%;}
+#selectcategory{width:36%;margin-left:11%;margin-top:0%;}
+input{width:35%;}
+.file_input_button{top:259%;}
+.file_input_textbox{margin-left:15%;}
+#send{padding: 10px 28px;
+left: 0%;
+display: block;
+margin-left: 41%;
+margin-top: 9%;
+margin-bottom: 3%;
+margin-right: auto;
+border-radius: 5px;
+background: transparent;
+font-family: Calibri;
+font-weight: bold;
+font-size: 17px;
+color: rgb(255, 255, 255);
+border-color: #ffffff;
+border: 1px solid white;
+cursor: pointer;
+width: 111px;}
+.file_input_div {left:80%;top:53%;}
+}
+

@@ -1,0 +1,169 @@
+
+.container{width:960px;margin:0 auto;display:block; }
+  .navigation{width: auto;
+float: right;
+height: auto;
+position: relative;
+top: 8px;}   
+    
+      .navigation li:hover {
+text-shadow: 1px 0px 15px #FFFFFF;  
+         
+       }
+      
+.flagimage{
+    float:left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+   .flagdiv{
+            float: left;
+              margin-top: 10px;
+              margin-left: 12px;
+                  color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+             body{
+                 font-family:sans-serif;
+                 margin: 0px;
+	background-color:#84250d;             
+}
+             
+             ul{               
+                 display: block;
+                 
+             }
+             
+       .menu2{width:100%;height:auto;height: 32px;
+        width: 100%;
+        background-color:  #84250d;
+            color: white;}      
+  
+    
+   
+    .main_menu{
+     display: inline;
+        margin-right: 41px;
+    }
+   a{
+        color: #FFF;    
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+ #dropdown_menu{  
+  -moz-column-width: 143px;
+  -webkit-column-width: 130px;
+height: 71px;
+background-color:  #84250d;
+position: absolute;
+top: 15px;
+list-style: none;
+ -moz-padding-start : 6px;
+ -webkit-padding-start : 6px;
+left: 60px;display:none;
+}
+#dropdown_menu li{/*
+float: left;
+width: 100px;
+text-align: center;
+line-height: 21px;*/
+margin-top:10px;
+
+}
+
+#drop:hover #dropdown_menu{display:block;}
+
+.footermenu_ul {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+float: right;
+margin-top: 7px;
+}     
+
+#copyright {
+color: white;
+font-family: Arial,Helvetica,sans-serif;
+color: white;
+font-size: 13px;
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+}
+h3{text-align:center;}
+.footer {
+position: relative;
+bottom: 0;
+width: 100%;
+/* display: block; */
+background-color: #84250d;
+height: 37px;
+z-index: 10;
+top:33px;
+}
+.footermenu_ul_li {
+display: inline-block;
+padding-right: 17px;
+padding-top: 5px;
+}
+.Home_MDCCoorpLogo{
+    position: absolute;
+    top: 71.5%;
+    left: 1%;
+    opacity: 1.0;
+    height:150px;
+}
+.inputside {
+    color: #395870;
+width: 100%;
+padding: 8px;
+border-radius: 9px;
+border: 1px solid;
+box-shadow: 2px 2px 6px #aaa;
+}
+.form1{
+    font-family: sans-serif;
+   margin:0 auto;display:block;width:43%;
+}
+
+.lable{margin-top:19px;}
+.textarea{
+width: 99%;
+padding: 8px;
+border-radius: 9px;
+border: 1px solid;
+box-shadow: 2px 2px 6px #aaa;
+}
+@media (min-width:991px){
+.Home_MDCCoorp_LastPartArrow{
+    position: absolute;
+    top: 34.2%;
+    left: 95.23%;
+    opacity: 1.0;
+    transform: rotate(350deg);
+    -ms-transform:rotate(350deg); /* IE 9 */ 
+    -webkit-transform: rotate(350deg); /* Safari and Chrome */;
+}}
+         
+    .svgliner{
+width:100%;
+position:absolute;
+margin-top:100px;
+z-index:999;
+height:250px;
+
+}   
+       

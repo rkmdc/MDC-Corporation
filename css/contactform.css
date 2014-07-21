@@ -1,0 +1,161 @@
+
+.contactdivwrapper{
+    font-family: sans-serif;
+    color: #444;
+    width: 99%;
+    height: 92%;
+ /*   //margin: 4% 3% 3% 4%;*/
+    position: relative;
+    /* border: 1px solid black; */
+    /* padding-bottom: 33%; */
+   /* padding: 3% 3% 3% 3%;*/
+    /* margin-left: 3%; */
+    /* margin-right: 3%; */
+    /* overflow-x: hidden; */
+}
+.contactdiv{
+    float: left;
+    clear: both;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.contactaddress{
+    width: 48.5%;
+    height: 100%;
+    ///margin-left: 50%;
+    float:left;
+    z-index: 10;
+}
+.contactaddress2{
+    width: 48.5%;
+    height: 100%;
+    ///margin-left: 50%;
+    float:left;
+    z-index: 10;
+}
+#tab1{
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    float: left;
+    height: 25%;
+    font-family: Raleway;
+    margin-top: 12%;
+    width: 25%;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10px;
+}
+#tab2{
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 25%;
+    font-family: Raleway;
+    margin-top: 12%;
+    margin-left: 30%;
+    width: 25%;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.locationmapdiv{
+    /*width: 100%;
+    height: 50%;
+    margin-top: 0%;*/
+    /* border: 1px solid black; */
+    position: relative;
+    padding-bottom: 52%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.locationmapdiv iframe{position: absolute;
+                       top: 0;
+                       left: 0;
+                       width: 100% !important;
+                       height: 100% !important;}
+.locationmapdiv2{
+    /*width: 100%;
+    height: 50%;
+    margin-top: 0%;*/
+    /* border: 1px solid black; */
+    position: relative;
+    padding-bottom: 52%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.locationmapdiv2 iframe{position: absolute;
+                       top: 0;
+                       left: 0;
+                       width: 100% !important;
+                       height: 100% !important;}
+
+.officeaddressdiv{
+    width: 48.5%;
+    height: 25%;
+    /* border: 1px solid black; */
+}
+#contactpagetext{
+    text-align: justify;
+    font-family: Raleway;
+    margin-top: 15px;
+}
+#contactpagetext_1{text-align: justify;
+                   font-family: Raleway;
+                   margin-top: 0px;
+                   float: left;}
+.mdcaddress{
+    float: left;
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #fff;
+}
+input{
+    border: 1.5px inset;
+    border-style: solid;
+    border-color:#333;
+    background: transparent;
+    border-radius: 11px;
+}
+.message{
+    border-radius: 11px;
+    border: 1.5px inset;
+    border-style: solid;
+    border-color: #333;
+    background: transparent;
+    height: 65px;
+    margin-bottom: 4px; 
+}
+P{
+    font-family: Raleway;
+}
+#emailidtext{
+
+    height: 5%;
+    /* margin-top: 12%; */
+    padding-right: 0%;
+    /* width: 16%; */
+}
+#addresstext{
+    float: none;
+    height: 92%;
+    /* width: 50%; */
+}
+#addresstext2{
+    float: none;
+    height: 92%;
+    /* width: 50%; */
+}
+#aboutscroll {
+    padding: 1% 5.2% 3% 3%;
+    height: 395px;
+    width: 89%;
+    
+    //margin-bottom:20px;
+    margin-left: 0%;
+     overflow-x: hidden; 
+}

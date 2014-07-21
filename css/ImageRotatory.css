@@ -1,0 +1,97 @@
+/*  
+    Document   : ImageRotatory.css
+    Created on : 17 Jan, 2014, 12:05:23 PM
+    Last Update: 17 Jan, 2014, 12:05:23 PM
+    Author     : CodeLord
+    Description: This Style Sheet is used for rotating image
+*/
+
+
+
+
+/*
+Purpose : This class is used for applying styles for Parent
+Created By: Codelord
+*/
+#Home_PendulumWebBoard-parent {
+    /*background-image:url(http://www.webdevdoor.com/demos/html5-pendulum-demo/pendulum-pivot.png);*/
+    display:none;
+}
+
+/*
+Purpose : This class is used for applying styles for Web Board
+Created By: Codelord
+*/
+#Home_pendulumWebBoard-child {
+    width:324px;
+    height:326px;
+    background-image:url(../images/MDCwebboard-04.png);
+    position:absolute;
+    left:-163px;
+    top:10px;
+}
+/*
+Purpose : This class is used for applying styles for Web Board Parent Position
+Created By: Codelord
+*/
+.Home_Pendulumwebboard-parent_position{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+
+
+#Home_PendulumMobileBoard-parent {
+    /*background-image:url(http://www.webdevdoor.com/demos/html5-pendulum-demo/pendulum-pivot.png);*/
+    display:none;
+}
+/*
+Purpose : This class is used for applying styles for Mobile Board
+Created By: Codelord
+*/
+#Home_pendulumMobileBoard-child {
+    width:324px;
+    height:326px;
+    background-image:url(../images/MDCwebboard-04.png); 
+    position:absolute;
+    left:-163px;
+    top:10px;
+    background-color: #000000f;
+}
+/*
+Purpose : This class is used for applying styles for Mobile Board Parent Position
+Created By: Codelord
+*/
+.Home_PendulumMobileboard-parent_position{
+    position: absolute;
+    top: 40%;
+    left: 59%;
+}
+
+
+#Home_PendulumSocialMediaBoard-parent {
+    /*background-image:url(http://www.webdevdoor.com/demos/html5-pendulum-demo/pendulum-pivot.png);*/
+    display:none;
+}
+/*
+Purpose : This class is used for applying styles for Mobile Board
+Created By: Codelord
+*/
+#Home_pendulumSocialMediaBoard-child {
+    width:324px;
+    height:326px;
+    background-image:url(../images/MDCwebboard-04.png); 
+    position:absolute;
+    left:-163px;
+    top:10px;
+    background-color: #000000f;
+}
+/*
+Purpose : This class is used for applying styles for Mobile Board Parent Position
+Created By: Codelord
+*/
+.Home_PendulumSocialMediaboard-parent_position{
+    position: absolute;
+    top: 40%;
+    left: 86%;
+}

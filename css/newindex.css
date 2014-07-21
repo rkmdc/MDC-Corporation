@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Jun, 2014, 9:43:26 AM
+    Author     : admin2
+*/
+
+  
+		   ul{
+        padding: 0;
+        list-style: none;
+    }
+    ul li{
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 21px;
+    }
+    ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: red;
+       
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul{
+        display: block; /* display the dropdown */
+    }
+	.secondul{
+		float: left;
+		position: absolute;
+		top: 32px;
+		width: 10px;
+		left:71px;
+	}
+	.secondul .has-sub{
+		font-size:16px !important;
+		background-color:#575756;
+		color:white;
+		width:162px;
+		
+	}
+	.secondul .has-sub:hover{
+			
+			color:white;
+		}
+		
+	

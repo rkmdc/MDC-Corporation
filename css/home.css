@@ -1,0 +1,297 @@
+/*  
+    Document   : Style.css
+    Created on : 1 Feb, 2014, 12:01:27 PM
+    Last Update: 1 Feb, 2014, 12:01:27 PM
+    Author     : CodeLord
+    Description: This Style Sheet is used for applying style for home page for website
+*/
+.HomePageFiveDivPartWrappper{
+
+    position: relative;
+    float: left;
+    height: 100%;
+    color: #adadad;
+}
+.HomePageMainContainerForFivePart{
+    height: 100%;
+    margin-left: 11.7%;
+    width: 84%;
+    /* position: absolute; */
+    /* z-index: -1; */
+    /* opacity: .3; */
+}
+
+#FincorpDiv{
+    width: 18%;
+    background-color: rgb(132,37,13);
+    opacity: 0.0;
+
+}
+#ConceptsDiv{
+    width: 21%;   
+    background-color: #1e4998;
+    opacity: 0.0;
+}
+
+#FitnessDiv{
+    width: 23.35%;   
+    background-color: rgb(228,125,40);
+    opacity: 0.0;
+}
+
+#LifeStyleDiv{
+    width: 19%;   
+    background-color: rgb(92,22,125);
+    opacity: 0.0;
+}
+
+#RealitiesDiv{
+    width: 17.7%;   
+    background-color: rgb(108,60,27);
+    opacity: 0.0;
+}
+
+#FincorpHoverDiv{
+    width: 18%;
+}
+
+
+#ConceptsHoverDiv{
+    width: 22%;   
+}
+#FitnessHoverDiv{
+    width: 22.3%;   
+}
+
+#LifeStyleHoverDiv{
+    width: 19.7%;   
+}
+
+#RealitiesHoverDiv{
+    width: 17.8%;   
+}
+
+.Home_letsEvovleDiv{
+    position: absolute;
+    height: 10%;
+    width: 35%;
+    color: #ffffff;
+    /* opacity: .3; */
+    top: 33%;
+    left: 60%;
+    z-index: -1;
+}
+.Home_letsEvovleFirstDiv{
+    /* height: 39%; */
+    width: 100%;
+    font-family: Raleway;
+    font-size: 17px;
+    position: fixed;
+    position: absolute;
+    top: 33%;
+    color: white;
+    left: 60%;
+    z-index: -1111;
+    /* padding-bottom: 12px; */
+    /* margin-bottom: 24px; */
+}
+
+.Home_letsEvovleSecondDiv{
+    height: 35%;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 29px;
+    margin-left: 30%;
+    position: absolute;
+    top: 38%;
+    color: white;
+    left: 37%;
+    z-index: -1111;
+}
+
+.Home_MDCCoorpLogo{
+    position: absolute;
+    top: 70.5%;
+    left: 1%;
+    opacity: 0.0;
+    height: 24%;
+}
+@media (min-width:991px){
+.Home_MDCCoorp_LastPartArrow{
+    position: absolute;
+    top: 34.2%;
+    left: 95.23%;
+    opacity: 0.0;
+    transform: rotate(350deg);
+    -ms-transform:rotate(350deg); /* IE 9 */ 
+    -webkit-transform: rotate(350deg); /* Safari and Chrome */;
+}}
+.Home_CompanyNameTextWrapperClass{
+    position: absolute;
+    background-color: #575756;
+    height: 8%;
+}
+
+.Home_CompanyNameTextWrapperClass_liffestyle{
+    position: absolute;
+    background-color: #575756;
+    height: 11%;
+}
+#Home_FincorpNameCoverWrapperStyles{
+    width: 8%;
+    top: 58.70%;
+    left: 16%;
+}
+
+#Home_ConceptsNameCoverWrapperStyles{
+    width: 14%;
+    top: 49%;
+    left: 29%;
+    
+}
+
+#Home_FitnessNameCoverWrapperStyles{
+    width: 10%;
+    top: 32%;
+    left: 50%;
+}
+
+#Home_LifeStyleNameCoverWrapperStyles{
+    width: 10%;
+    top: 49.8%;
+    left: 66.5%;
+}
+
+#Home_RealitiesNameCoverWrapperStyles{
+    width: 10%;
+    top: 25%;
+    left: 85%;
+}
+
+.CompNameText_fitness{position: absolute;
+                      font-size: 15px;
+                      top: 34%;
+                      left: 28.5%;
+                      font-family: Raleway;
+                      font-size: 24px;}
+@media (max-width:1100px) and (min-width:767px){
+    .CompNameText_fitness{ top: 33%;
+    font-family: Raleway; font-size: 24px;}
+#Home_FincorpNameCoverWrapperStyles{
+    width: 10%;
+    top: 51%;
+    left: 16.5%;
+}
+#Home_ConceptsNameCoverWrapperStyles{
+    width: 16%;
+    top: 46.8%;
+    
+}
+#Home_FitnessNameCoverWrapperStyles{
+  width: 11%;
+top: 33%;  
+}
+#Home_RealitiesNameCoverWrapperStyles {
+width: 12%;
+top: 25%;
+left: 85%;
+}
+}
+.CompNameText_fincorp{position: absolute;
+                      font-size: 15px;
+                      top: 60%;
+                      left: 23%;
+                      font-family: Raleway; font-size: 24px;
+                      }
+.CompNameText_concepts{ position: absolute;
+                        font-size: 15px;
+                        top: 52%;
+                        left: 16%;
+                        font-family: Raleway; font-size: 24px;
+                      }
+.CompNameText_lifestyle{position: absolute;
+                        font-size: 15px;
+                        top: 49%;
+                        left: 20%;
+                        font-family: Raleway; font-size: 24px;
+                      }
+    .CompNameText_realities{position: absolute;font-size: 15px;top: 27%;left: 28%;font-family: Raleway; font-size: 24px;
+        
+    }
+@media (max-width:1100px) and (min-width:960px){
+    .CompNameText_fincorp{top: 55%;}
+    .CompNameText_concepts{ top: 49%;left:12%;}
+    .CompNameText_lifestyle{ top: 47%;}
+    #Home_FincorpNameCoverWrapperStyles{
+    width: 10%;
+    top: 54%;
+    left: 16.5%;
+}
+#Home_LifeStyleNameCoverWrapperStyles{
+    width: 12%;
+top: 48%;
+}
+}
+@media (max-width:960px) and (min-width:800px){
+    .CompNameText_fincorp{top: 53%;font-size: 18px;}
+    .CompNameText_concepts{ top: 48%;top: 47%;
+left: 17%;
+font-size: 18px;}
+    .CompNameText_lifestyle{ top: 46%;font-size: 18px;}
+    .CompNameText_fitness{ 
+    font-size: 18px;}
+    .CompNameText_realities{font-size: 18px;}
+    #Home_LifeStyleNameCoverWrapperStyles{
+    width: 11%;
+top: 46%;
+}
+}
+@media (max-width:800px) and (min-width:700px){
+    .CompNameText_realities{font-size: 18px;top:28%;left:5%;}
+    .CompNameText_fincorp{top: 49%;font-size: 18px;left:11%;}
+    .CompNameText_concepts{ top: 44%;
+left: 10%;
+font-size: 18px;}
+    .CompNameText_lifestyle{ top: 43%;font-size: 18px;left:10%}
+    .CompNameText_fitness{left:18%; top: 32%;
+    font-size: 18px;}
+    #Home_LifeStyleNameCoverWrapperStyles{
+    width: 13%;
+top: 43%;
+}
+#Home_RealitiesNameCoverWrapperStyles {
+width: 13%;
+top: 25%;
+left: 83%;
+}
+#Home_ConceptsNameCoverWrapperStyles{
+    width: 14%;
+    top: 44%;
+    left: 29%;
+    
+}
+#Home_FincorpNameCoverWrapperStyles{
+    width: 11%;
+    top: 49.70%;
+    left: 15%;
+}
+}
+@media (max-width:700px) and (min-width:568px){
+    .CompNameText_realities{top:29%;left:0%;font-size: 14px;}
+    .CompNameText_fincorp{top: 46%;font-size: 14px;left:4%}
+    .CompNameText_concepts{ top: 43%;
+left: 3%;
+font-size: 14px;}
+    .CompNameText_lifestyle{ top: 41%;font-size: 14px;left:4%}
+    .CompNameText_fitness{top:32%;left:11%; 
+    font-size: 14px;}
+    #Home_LifeStyleNameCoverWrapperStyles{
+    width: 13%;
+top: 44%;
+}
+#Home_RealitiesNameCoverWrapperStyles {
+width: 12%;
+top: 25%;
+left: 85%;
+}
+}

@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jun, 2014, 11:47:27 AM
+    Author     : admin2
+*/
+.parent{
+    width: 100%
+    
+}
+.wrapper{
+    float: right;
+    margin-right: 200px;
+margin-top: 7%;
+}
+.btn11{
+    margin:auto;
+    margin-left: 780px;
+}
+
+.addrreg{
+    display: none;
+    margin-left:-260px;
+padding-top: 10px;
+}
+
+.addrcorp{
+    font-family: sans-serif;
+    display: block;
+    margin-left: -155px;
+    padding-top: 10px;
+}
+.emaildiv{
+    padding: 2%;
+}
+div.emaildiv{
+    margin-top: 75%;
+}
