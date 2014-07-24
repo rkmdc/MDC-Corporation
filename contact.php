@@ -1,4 +1,6 @@
-<?php include './util.php'; ?>
+<?php include './util.php';
+ session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -120,7 +122,7 @@
         } else {
             ?>
             <div class="contactbox <?php
-            if ($_GET['result'] == 1) {
+            if ($_SESSION['result'] == 1) {
                 echo 'success';
             } else {
                 echo 'alert';
@@ -128,7 +130,7 @@
             ?> ">
 
                 <?php
-                if ($_GET['result'] == 1) {
+                if ($_SESSION['result'] == 1) {
                     echo 'Your message has been sent.';
                 } else {
                     echo 'Your application has not been sent.';
@@ -137,6 +139,7 @@
 
             </div> 
             <?php
+                unset($_SESSION('result'));
         }
         ?>
 
