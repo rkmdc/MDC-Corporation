@@ -117,7 +117,7 @@
 
 
         <?php
-        if (!isset($_GET['result'])) {
+        if (!isset($_SESSION['result'])) {
             
         } else {
             ?>
