@@ -79,12 +79,20 @@
                 path.transition()
                         .ease("in-out")
                         .duration(30000)
-                        .attrTween("stroke-dasharray", function(d) { return d + tweenDash; })
+                        .attrTween("stroke-dasharray",tweenDash)
                         .each("end", function() {
                         });
             }
             
-            
+       
+       
+            function tweenDash() {
+                var l = this.getTotalLength(),
+                        i = d3.interpolateString("0," + l, l + "," + l);
+                return function(t) {
+                    return i(t);
+                };
+            }
 //            path.attr("stroke-dasharray", totalLength + " " + totalLength)
 // .attr("stroke-dashoffset", totalLength)
 // .transition()
@@ -104,13 +112,6 @@
             
             
             
-            function tweenDash() {
-                var l = this.getTotalLength(),
-                        i = d3.interpolateString("0," + l, l + "," + l);
-                return function(t) {
-                    return i(t);
-                };
-            }
 
 
 
